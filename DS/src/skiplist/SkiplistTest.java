@@ -22,5 +22,8 @@ public class SkiplistTest {
     for (Node node : skiplist.downwardPath(9)) {
       System.out.print(node.val + ",");
     }
+
+    String s = "a";
+    System.out.println(s.substring(0,0) + s.substring(1, 1));
   }
 }
