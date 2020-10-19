@@ -21,6 +21,7 @@ public class SkiplistTest {
     System.out.println(skiplist);
     for (Node node : skiplist.downwardPath(9)) {
       System.out.print(node.val + ",");
+      Integer.sum(1, 2);
     }
 
     String s = "a";
